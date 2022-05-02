@@ -225,16 +225,6 @@ The API will return three error types when requests fail:
 
 ```
 
-#### POST /questions
-- General:
-    - If provided, updates the rating of the specified book. Returns the success value and id of the modified book. 
-- `curl http://127.0.0.1:5000/books/15 -X PATCH -H "Content-Type: application/json" -d '{"rating":"1"}'`
-```
-{
-  "id": 15,
-  "success": true
-}
-```
 
 
 ## Deployment N/A
